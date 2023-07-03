@@ -20,3 +20,4 @@ knn = KNeighborsClassifier()
 knn.fit(X_train, y_train) #所有训练步骤都在这一句
 print(knn.predict(X_test))#用属性预测值
 print(y_test)
+print(X_test)
